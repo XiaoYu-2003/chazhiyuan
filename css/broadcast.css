@@ -1,0 +1,215 @@
+/* CSS Document */
+@font-face{
+    font-family: 悠然小楷;
+    src: url("../font/悠然小楷.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+}
+
+/*=======================导航栏=======================*/
+nav{
+    height: 80px;
+    padding: 0 10%;
+    /*border-top: 2px solid green;*/
+}
+.logo{
+    margin-left: 1%;
+}
+.logo img{
+    float: left;
+    margin: 5px 0;
+    height: 70px;
+}
+.logo .introduce{
+    float: left;
+    height: 66px;
+    width: 280px;
+    margin-top: 8px;
+    margin-left: 12px;
+    border-left: 1.5px solid black;
+}
+.logo .introduce p{
+    font-family: "楷体";
+    margin-top: 2px;
+    margin-left: 12px;
+    font-size: 18px;
+    height: 40px;
+    line-height: 30px;
+}
+.nav-list{
+    height: 80px;
+    display: flex;
+    margin-left: 35%;
+}
+.list-items,.list-items-home {
+    width: 20%;
+    line-height: 80px;
+    list-style: none;
+    font-size: 18px;
+}
+.list-items a{
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    transition: color .6s;
+    transition: background .6s;
+    /*border-radius: 10px;*/
+}
+.list-items-home a{
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: green;
+}
+.list-items a:hover{
+    color: white;
+    background: green;
+}
+.login{
+    margin: auto 0 auto 9%;
+    width: 160px;
+    height: 40px;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    background-color: green;
+}
+.login a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+.login:hover{
+    background-color: rgba(111,165,90,1.00);
+}
+
+/*=======================banner=======================*/
+.banner{
+    height: 580px;
+}
+.banner img{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+/*=======================主播=======================*/
+.host{
+    padding: 40px 0 100px 0;
+}
+.host-items{
+    padding: 50px 250px 0 250px;;
+}
+.host-items1,.host-items2{
+    height: 200px;
+}
+.host-items2{
+    padding-left: 530px;
+}
+.host-items1{
+    float: left;
+}
+.items1-left{
+    float: left;
+}
+.items2-left{
+    float: left;
+}
+.items1-left img,.items2-left img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.items1-right{
+    padding-left: 50px;
+    float: left;
+}
+.items2-right{
+    padding-left: 230px;
+}
+.items1-right .items1-right-title,.items2-right .items2-right-title{
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.items1-right .items1-right-text,.items2-right .items2-right-text{
+    padding-top: 20px;
+    font-size: 14px;
+    width: 230px;
+}
+.items1-right .items1-right-buttom,.items2-right .items2-right-buttom{
+    padding-top: 10px;
+    padding-left: 95px;
+}
+.items1-right .items1-right-buttom a,.items2-right .items2-right-buttom a{
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    background-color: green;
+    border-radius: 20px;
+}
+.items1-right .items1-right-buttom a:hover,.items2-right .items2-right-buttom a:hover{
+    background-color: rgba(116,175,127,1.00);
+}
+
+/*=======================其他信息=======================*/
+footer{
+    height: 360px;
+    background-color: #21373d;
+    color: white;
+}
+.foot-top{
+    height: 290px;
+    padding: 70px 260px;
+}
+.foot-top-logo{
+    float: left;
+    width: 100px;
+}
+.foot-top-logo img{
+    width: 80px;
+    height: 100%;
+}
+.foot-top-logo p{
+    padding-top: 15px;
+}
+.foot-top-center{
+    padding-top: 20px;
+    padding-left: 130px;
+    float: left;
+    width: 400px;
+}
+.foot-top-right{
+    padding-top: 20px;
+    padding-left: 700px;
+}
+.foot-top-right p{
+    
+}
+.foot-top-right img{
+    width: 100px;
+    height: 100%;
+}
+.foot-bottom p{
+    padding-top: 10px;
+   text-align: center;
+}

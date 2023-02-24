@@ -1,0 +1,140 @@
+/* CSS Document */
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 80px;
+    padding: 0 10%;
+    /*border-top: 2px solid green;*/
+}
+.logo{
+    margin-left: 10%;
+}
+.logo img{
+    float: left;
+    margin: 5px 0;
+    height: 70px;
+}
+.nav-list{
+    height: 80px;
+    display: flex;
+    margin-left: 35%;
+}
+.list-items,.list-items-home {
+    width: 20%;
+    line-height: 80px;
+    list-style: none;
+    font-size: 18px;
+}
+.list-items a{
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    transition: color .6s;
+    transition: background .6s;
+    /*border-radius: 10px;*/
+}
+.list-items-home a{
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: green;
+}
+.list-items a:hover{
+    color: white;
+    background: green;
+}
+.login{
+    margin: auto 0 auto 9%;
+    width: 160px;
+    height: 40px;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    background-color: green;
+}
+.login a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+.login:hover{
+    background-color: rgba(111,165,90,1.00);
+}
+
+
+.img{width: 600px;height: 100px;}
+.c2{width: 100%; height: 580px;float: left;}
+.c3{width: 100%; height: 30px;float: left;}
+.c4{width: 100%; height: 75px;float: left;line-height: 75px;margin: 0 auto;}
+	
+	.c4 a{text-align-last: center;width: 150px;height: 10px;line-height: 10px;text-decoration-line: none;padding: 50px;float: left;font-size: 25px;font-weight:500;}
+.tea{
+	color: black;
+}
+	.hc{background-color: green;color: white;}
+	.c4 a:hover{ background-color: green;display: inline-block;color: white;}
+	
+.c5{width: 100%; height: 600px;margin: 0 auto;text-align: center;float:left;}
+	.d1{ height: 394px; float: left;margin: 0 auto;line-height: 500px;text-align: center; overflow: hidden;padding: 50px;}
+	.d2{transition: all .5s ease.1s;}
+	.d2:hover {transform: scale(1.3);}
+	span{font-size: 21px;font-weight: 500;}
+	.phot{width: 450px;height: 500px;float: left;padding-left: 220px;}
+.c6{width: 100%; height: 100px;float:left; padding-top: 500px;}
+.c7{width: 100%;height: 300px;text-align:center;line-height: 75px;float: left;color:black;}
+/*=======================其他信息=======================*/
+footer{
+    height: 360px;
+    background-color: #21373d;
+    color: white;
+}
+.foot-top{
+    height: 220px;
+    padding: 70px 260px 0px 260px;
+}
+.foot-top-logo{
+    float: left;
+    width: 100px;
+}
+.foot-top-logo img{
+    width: 80px;
+    height: 100%;
+}
+.foot-top-logo p{
+    padding-top: 15px;
+}
+.foot-top-center{
+    padding-top: 20px;
+    padding-left: 130px;
+    float: left;
+    width: 400px;
+}
+.foot-top-right{
+    padding-top: 20px;
+    padding-left: 700px;
+}
+.foot-top-right p{
+    
+}
+hr{
+    padding: 0;
+    margin: 0;
+}
+.foot-top-right img{
+    width: 100px;
+    height: 100%;
+}
+.foot-bottom p{
+    padding-top: 10px;
+    text-align: center;
+}
+
