@@ -181,7 +181,7 @@ nav{
     background-size: cover;
 }
 .tea h3{
-    font-size: 28px;
+    font-size: 32px;
 }
 .tea p{
     font-size: 20px;
@@ -199,14 +199,14 @@ nav{
     margin-left: 65%;
 }
 .tea-left .left2-title{
-    margin-top: 20%;
+    margin-top: 24%;
     margin-left: 45%;
 }
 .tea-left .left2-text{
     margin-left: 45%;
 }
 .tea-left .left3-title{
-    margin-top: 20%;
+    margin-top: 24%;
     margin-left: 72%;
 }
 .tea-left .left3-text{
@@ -225,14 +225,14 @@ nav{
     margin-left: 2%;
 }
 .tea-right .right2-title{
-    margin-top: 20%;
+    margin-top: 24%;
     margin-left: 30%;
 }
 .tea-right .right2-text{
     margin-left:30%;
 }
 .tea-right .right3-title{
-    margin-top: 20%;
+    margin-top: 24%;
     margin-left: 15%;
 }
 .tea-right .right3-text{
